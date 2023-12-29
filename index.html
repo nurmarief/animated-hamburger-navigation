@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Navigation</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="hamburger-icon" id="hamburger-icon">
+        <div class="hamburger-icon__bar hamburger-icon__bar--number_1"></div>
+        <div class="hamburger-icon__bar hamburger-icon__bar--number_2"></div>
+        <div class="hamburger-icon__bar hamburger-icon__bar--number_3"></div>
+      </div>
+      <div class="overlay overlay--slide_left" id="overlay">
+        <nav class="nav">
+          <ul class="nav__item-group">
+            <li
+              id="nav-1"
+              class="nav__item nav__item--theme_black nav__item--slide-out"
+            >
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li
+              id="nav-2"
+              class="nav__item nav__item--theme_red nav__item--slide-out"
+            >
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li
+              id="nav-3"
+              class="nav__item nav__item--theme_orange nav__item--slide-out"
+            >
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li
+              id="nav-4"
+              class="nav__item nav__item--theme_turquoise nav__item--slide-out"
+            >
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+            <li
+              id="nav-5"
+              class="nav__item nav__item--theme_green nav__item--slide-out"
+            >
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <h1 aria-label="lorem ipsum dolor sit amet."></h1>
+      <section id="home" class="section section--name_home">
+        <h2 class="site-title">
+          <a href="#" target="_blank">Lorem Ipsum Design</a>
+        </h2>
+      </section>
+      <section id="about" class="section section--name_about">
+        <h2 class="section-title">Learn More About Me</h2>
+      </section>
+      <section id="skills" class="section section--name_skills">
+        <h2 class="section-title">These Are My Strengths</h2>
+      </section>
+      <section id="projects" class="section section--name_projects">
+        <h2 class="section-title">These Are My Results</h2>
+      </section>
+      <section id="contact" class="section section--name_contact">
+        <h2 class="section-title">Available Anytime</h2>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
